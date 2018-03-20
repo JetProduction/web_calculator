@@ -4,7 +4,7 @@
 }
 html {
     height: 100%;
-    background: linear-gradient(to right, blueviolet,blue);
+    background: linear-gradient(to right, blueviolet, rebeccapurple);
 }
 .calculator_wrapper {
     position: absolute;
