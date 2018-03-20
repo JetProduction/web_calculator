@@ -54,4 +54,5 @@ td>input.equal {
     width:100%;
     height:70px;   /* Высота блока "footer" */
     background:#66ccff;
+    align-content: center;
  }
