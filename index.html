@@ -9,7 +9,7 @@
     <script src="js/action.js" defer></script>
 </head>
 <body>
-    <div class="bord">
+   
     <div class="calculator_wrapper">
         <form action="#" name="form">
             <input type="textview" id="textview">
@@ -19,7 +19,7 @@
                 <td><input type="button" value="C" onclick="clean()"></td>
                 <td><input type="button" value="<" onclick="back()"></td>
                <td><input type="button" value="/" onclick="insert('/')"></td>
-               <td><input type="button" value="*" onclick="insert('*')"></td>
+               <td><input type="button" value="x" onclick="insert('*')"></td>
             </tr>
             <tr>
                 <td><input type="button" value="7" onclick="insert(7)"></td>
@@ -44,7 +44,9 @@
                 <td><input type="button" value="." onclick="insert('.')"></td>
             </tr>
         </table>
-    </div>
+</div>
+<div id="footer">
+    <!-- Содержимое нижнего блока -->
 </div>
 </body>
 </html>
